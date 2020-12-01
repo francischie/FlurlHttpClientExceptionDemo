@@ -1,0 +1,77 @@
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.kube
+*.idea
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+*.dll
+.kube
+
+# kdiff
+*.orig
+
+#rider
+*.idea
+
+
+# dotCover
+*.dcvr  
+report
+*coverage-*
+report.html
+*results.xml
+*.dec
+
+swagger.xml
+src/iHerb.Checkout.LegacyV2.Api/swagger.xml
+iHerb.Checkout.LegacyV2.Api.xml
+
+#NuGet
+NuGet.Config
+NuGet.config
+Nuget.Config
+Nuget.config
+nuGet.config
+nuget.Config
+nuget.config
+
+# Coverlet coverage results
+coverage.opencover.xml
+
+# health checks UI
+healthchecksdb
+
+#test results
+*test_results*
+test-results/*
+.sonarqube/*
+.scannerwork/*
+coverage.json
